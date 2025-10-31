@@ -1,52 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .amanlogo{
-            width: 40px;
-            height: 23px;
-            
-        }
-        .amanlogo{
-            width: 164px;
-        }
 
-        nev{
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-        }
-        .right ul{
-            display: flex;  
-            gap: 43px;
-        }
-        .right ul li{
-            list-style: none;
-            
-        }
+    <title>Devfolio - A software engineer portfolio
+
+    
+    </title>
+    <meta name="title" content="Devfolio - A software engineer portfolio">
+    <meta name="discription" content="This is a porsonal portfolio made by aman khavse">
+
+    <link rel="shortcut icon" href="favicon.svg" >
+
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+  href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&family=Open+Sans:wght@400;500&display=swap"
+  rel="stylesheet">
+
+  <link rel="stylesheet"
+href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
 
-    </style>
+<link rel="stylesheet" href="style.css"
+
 </head>
-<body>
-    <header>
-        <nev
-            <div> 
-                <div class="amanlogo"></div>
-<img src="https://www.ultraedit.com/wp-content/uploads/2023/01/Group-17.svg" >
-            </div>
-            <div class="right">
-            <ul>
-                <li>products</li>
-                <li>pricing</li>
-                <li>resources</li>  
-                <li>about as</li>
-            </div>
-        </nev>
+<body> 
+
+  
+    <header class="topbar">
+
+        <a href="#" class="logo">
+            
+            
+            <img src="favicon.svg" alt="Devfolio" width="40" height="32"><span class="logo-text">Devfolio</span>
+
+        </a>
+
+        <button class="icon-btn theme-btn" data-theme-btn>
+            <span class="material-symbols-outlined light-icon" aria-hidden="true">light_mode</span>
+            <span class="material-symbols-outlined dark-icon" aria-hidden="true">dark_mode</span>
+
+            <div class="state-layer"></div>
+        </button>
+
     </header>
     
+
+
+    <script src="./js/script.js"></script>
+
 </body>
 </html>
